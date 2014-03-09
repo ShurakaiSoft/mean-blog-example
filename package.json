@@ -1,0 +1,26 @@
+{
+  "name": "blog-demo",
+  "version": "0.0.1",
+  "private": true,
+  "main": "./app.js",
+  "repository": {
+	  "type": "git",
+	  "url": "https://github.com/ShurakaiSoft/mean-blog-example.git"
+  },
+  "scripts": {
+	  "start": "nodemon ./app.js",
+	  "test": "mocha -R spec --recursive ./test"
+  },
+  "dependencies": {
+    "express": "~3.2.6",
+    "jade": "~0.31.2",
+    "mongoose": "~3.8.8",
+    "when": "2.8.0"
+  },
+  "devDependencies": {
+	  "mocha": "1.17.1",
+	  "nodemon": "1.0.15",
+	  "should": "3.1.3",
+	  "sinon": "1.9.0"
+  }
+}
